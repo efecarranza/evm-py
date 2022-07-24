@@ -18,6 +18,12 @@ class Stack:
 
         return self.stack.pop()
 
+    def swap(self, i: int) -> None:
+        if len(self.stack) < i:
+            raise StackUnderflow()
+
+        self.stack[-1, self.stack[-1-1]], self.stack[-1]
+
     def __str__(self) -> str:
         return str(self.stack)
 

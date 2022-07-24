@@ -1,5 +1,10 @@
+from dataclasses import dataclass
 from context import ExecutionContext
 from opcodes import decode_opcode
+
+@dataclass
+class ExecutionLimitReached(Exception):
+    context: ExecutionContext
 
 def run(code: bytes) -> None:
     context = ExecutionContext(code=code)

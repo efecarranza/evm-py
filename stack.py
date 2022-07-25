@@ -1,5 +1,5 @@
 from sre_constants import MAX_REPEAT
-from .constants import MAX_STACK_DEPTH, MAX_UINT256
+from constants import MAX_STACK_DEPTH, MAX_UINT256
 
 
 class Stack:

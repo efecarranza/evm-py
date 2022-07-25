@@ -1,8 +1,8 @@
 from dataclasses import dataclass
 from typing import Sequence, Union
 
-from .context import ExecutionContext
-from .exceptions import InvalidCodeOffset, UnknownOpcode, InvalidJumpDestination
+from context import ExecutionContext
+from exceptions import InvalidCodeOffset, UnknownOpcode, InvalidJumpDestination
 
 
 class Instruction:

@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
-from .context import ExecutionContext
-from .opcodes import decode_opcode
+from context import ExecutionContext
+from opcodes import decode_opcode
 
 
 @dataclass

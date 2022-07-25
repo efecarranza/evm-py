@@ -5,7 +5,7 @@ from context import ExecutionContext
 class EVMException(Exception):
     context: ExecutionContext
 
-class UknownOpcode(EVMException):
+class UnknownOpcode(EVMException):
     pass
 
 class InvalidCodeOffset(EVMException):

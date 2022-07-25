@@ -1,4 +1,4 @@
-from .constants import MAX_UINT256, MAX_UINT8, is_valid_uint256, is_valid_uint8
+from constants import MAX_UINT256, MAX_UINT8, is_valid_uint256, is_valid_uint8
 
 ZERO_WORD = [0] * 32
 

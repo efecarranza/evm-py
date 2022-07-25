@@ -7,7 +7,7 @@ def main():
         sys.exist(1)
 
     data = sys.argv[1]
-    run(bytes.fromhex(data))
+    run(bytes.fromhex(data), True)
 
 if __name__ == "__main__":
     main()
